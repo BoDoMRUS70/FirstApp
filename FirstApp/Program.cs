@@ -1,13 +1,6 @@
-﻿namespace FirstApp
+﻿enum Semaphore
 {
-    enum DaysOfWeek : byte
-    {
-        Monday = 1,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday,
-        Sunday
-    }
-}
+    Red = 100,
+    Yellow = 200,
+    Green = 300
+}   
