@@ -4,7 +4,6 @@ class MainClass
 {
     static void Main(string[] args)
     {
-
         string myName;
         myName = "Jane";
 
