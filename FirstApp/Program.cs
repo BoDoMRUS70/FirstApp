@@ -1,6 +1,9 @@
-﻿enum Semaphore
+﻿using System;
+
+class MainClass
 {
-    Red = 100,
-    Yellow = 200,
-    Green = 300
-}   
+    static void Main(string[] args)
+    {
+        Console.WriteLine("\t Привет,\n мир!");
+    }
+}
