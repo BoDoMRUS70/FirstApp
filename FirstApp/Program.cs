@@ -4,6 +4,11 @@ class MainClass
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("\t Привет,\n мир!");
+        string MyName = "Дмитрий";
+        Console.WriteLine("Привет, Мир");
+        Console.WriteLine();
+        Console.WriteLine($"Меня зовут {MyName}");
+
+        Console.ReadKey();
     }
 }
